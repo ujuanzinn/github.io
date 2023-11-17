@@ -1,0 +1,128 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000fd;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container 
+{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+h1
+{
+    font-size: 3rem;
+    margin: 30px 0;
+}
+input[type="text"],
+button 
+{
+    padding: 8px;
+    margin: 5px 0;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 0.9rem;
+}
+
+input[type="text"]::placeholder {
+    color: #ccc;
+}
+button 
+{
+    background-color: #e50914;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 0.8rem;
+    padding: 6px;
+}
+button:hover 
+{
+    background-color: #ff0000;
+}
+#mensagemDeErro 
+{
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#listaFilmes 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.filme 
+{
+    width: calc(50% - 20px);
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.filme img 
+{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.filme h3 
+{
+    margin: 0;
+    font-size: 1.3rem;
+}
+.filme p 
+{
+    margin: 5px 0;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+.filme a 
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 8px;
+    background-color: #e50914;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+    font-size: 0.8rem;
+}
+.filme a:hover 
+{
+    background-color: #ff0000;
+}
+footer {
+    background-color: #0606f5;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    opacity: 0.5;
+    z-index: 1;
+    margin-top: 40px;
+}
+.posterFilme 
+{
+    width: 200px; 
+    height: auto; 
+}

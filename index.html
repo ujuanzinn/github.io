@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">AurinoFlix</h1>
+        <link rel="stylesheet" href="style.css">
+        <div>
+          <input type="text" id="filme" placeholder="Insira o título do filme">
+          <button onclick="adicionarFilme()">Adicionar Filme</button>
+          <p id="mensagemDeErro"></p>
+        </div>
+        <div id="listaFilmes"></div>
+      </div>
+      <footer>
+        <p style="font-family: Arial, Helvetica, sans-serif;">Este site utiliza a API do <a href="https://www.themoviedb.org/" target="_blank">The Movie DB</a>.<br>Criado por Juan Pablo.</p>
+      </footer>
+      <script src="script.js"></script>
+</body>
+</html>
