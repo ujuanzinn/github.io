@@ -81,3 +81,5 @@ function updateDateTime() {
             const dateTimeString = now.toLocaleDateString() + ' ' + now.toLocaleTimeString();
             document.getElementById('current-date-time').innerText = dateTimeString;
         }
+
+setInterval(updateDateTime, 1000);
