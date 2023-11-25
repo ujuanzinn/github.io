@@ -75,3 +75,9 @@ function removerFilme(index) {
   listaFilmesFavoritos.splice(index - 1, 1);
   recarregarFilmes();
 }
+
+function updateDateTime() {
+            const now = new Date();
+            const dateTimeString = now.toLocaleDateString() + ' ' + now.toLocaleTimeString();
+            document.getElementById('current-date-time').innerText = dateTimeString;
+        }
