@@ -3,7 +3,8 @@ body
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000fd;
+    background-image: url('https://w.forfun.com/fetch/c1/c19635c7d91b86f072b7708b1ea83d7e.jpeg');
+    background-size: cover;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -109,7 +110,7 @@ button:hover
     background-color: #ff0000;
 }
 footer {
-    background-color: #0606f5;
+    background-color: #1b1b1f;
     color: #fff;
     text-align: center;
     padding: 15px;
